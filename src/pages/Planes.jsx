@@ -32,6 +32,17 @@ const Planes = () => {
 
         
       </div>
+
+      <div>
+        <h2>Programacion Auxiliar </h2>
+        <Link to="/suscripciones/2c9380848fc42397018fde16274205fe">Elegir programacion  Auxiliar</Link>
+
+        
+      </div>
+
+
+
+
     </div>
   );
 };

@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Suscripcion from './pages/Suscripcion'
+import SuscripcionesApi from "./pages/SuscripcionesApi"
 import FormularioPreferenc from './pages/FormularioPreferenc'
 import LinkPagos from './pages/LinkPagos'
 import Planes from './pages/Planes'
@@ -19,6 +20,10 @@ let router = createBrowserRouter([
   {
     path: "/suscripcion/:id",
     element: <Suscripcion />,
+  },
+  {
+    path: "/suscripciones/:id",
+    element: <SuscripcionesApi />,
   },
   {
     path:"/pagoexitoso",
